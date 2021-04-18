@@ -9,8 +9,11 @@ http.createServer(function (req,res) {
 }).listen(8080);
 
 initialize git 
-$ git config --global user.name "Your Name"
-$ git config --global user.email "you@youraddress.com"
+$ git config --global user.name "gojessss"
+$ git config --global user.email "jessica.brown@tum.de"
 $ git config --global push.default matching
 $ git config --global alias.co checkout
 $ git init
+
+
+heroku may need proc ? file
