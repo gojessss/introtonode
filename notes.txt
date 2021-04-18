@@ -1,0 +1,16 @@
+node.js
+
+//create server instance on local machine 
+var http = require("http");
+
+http.createServer(function (req,res) {
+	res.writeHead(200, {"Content-Type": "text/html"});
+	res.end("Hello World!");
+}).listen(8080);
+
+initialize git 
+$ git config --global user.name "Your Name"
+$ git config --global user.email "you@youraddress.com"
+$ git config --global push.default matching
+$ git config --global alias.co checkout
+$ git init
